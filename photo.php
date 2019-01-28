@@ -54,7 +54,7 @@
 								</section>
 								<p class="copyright">
 									<!-- 虽说本页面制作容易，但也需要一点点时间编辑，请保留版权信息。 -->
-									&copy; 2019 Powered by <a href="https://github.com/616620131/Multiverse-page">Zdsr</a> Based HTML5 UP</a>.
+									&copy; 2019 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a> Powered by <a href="https://github.com/616620131/Multiverse-page">Zdsr</a> Based HTML5 UP</a>.
 								</p>
 							</div>
 							<div>
