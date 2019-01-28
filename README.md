@@ -1,4 +1,4 @@
-# Multiverse-page
+# Multiverse-page for typecho
 typecho单页模板，相册页面。原为HTML5 UP开发设计的静态单页，觉得好看，便整合到typecho里面，实现了动态管理。
 ## 示例
 在线演示：https://html5up.net/multiverse   
