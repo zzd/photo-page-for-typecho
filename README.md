@@ -1,5 +1,9 @@
 # Multiverse-page
 typecho单页模板，相册页面。原为HTML5 UP开发设计的静态单页，觉得好看，便整合到typecho里面，实现了动态管理。
+## 使用说明
+### 安装
+将文件上传至你所使用的主题根目录即可，如默认主题`localhost/usr/themes/default`
+### 调用格式
 格式为js数组，如
 ```
 {
