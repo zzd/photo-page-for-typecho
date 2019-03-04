@@ -21,9 +21,15 @@ typecho单页模板，相册页面。原为HTML5 UP开发设计的静态单页�
   "预览图": "https://ww2.sinaimg.cn/mw690/006uAlqKgy1fzlbjrxju2j31400u04qz.jpg",
   "标题": "Greater Wild Goose Pagoda",
   "简介": "2017年06月15日 by iPhone 7Plus"
+},
+{
+  "大图": "https://ww2.sinaimg.cn/large/006uAlqKgy1fzlbjrxju2j31400u04qz.jpg",
+  "预览图": "https://ww2.sinaimg.cn/mw690/006uAlqKgy1fzlbjrxju2j31400u04qz.jpg",
+  "标题": "Greater Wild Goose Pagoda",
+  "简介": "2017年06月15日 by iPhone 7Plus"
 }
 ```
-每两个之间使用英文逗号，最后一个不使用。
+一对大括号描述一张图片，每对大括号之间使用英文逗号，最后一个不使用。
 字段`about`控制指定位置的文本，可填写关于等信息。
 ##### 注意
 该页面的标题就为单页的标题。
