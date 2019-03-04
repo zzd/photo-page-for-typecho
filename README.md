@@ -9,7 +9,9 @@ typecho单页模板，相册页面。原为HTML5 UP开发设计的静态单页�
 ![手机预览](https://ww2.sinaimg.cn/large/006uAlqKgy1fzmay93rd6j30bi0kgt94.jpg)
 ## 使用说明
 ### 安装
-将文件上传至你所使用的主题根目录，如默认主题`localhost/usr/themes/default`，然后创建空白单页，模板选择`照片集`。
+[点击下载1.0版本文件](https://github.com/616620131/Multiverse-page-typecho/releases)
+
+将`Multiverse-page-typecho-1.0`文件夹内的所有文件上传至你所使用的主题根目录，如默认主题`localhost/usr/themes/default`，然后在typecho后台创建空白单页，模板选择`照片集`。
 ### 调用格式
 以以下格式编辑单页内容即可。
 格式为js数组，如
