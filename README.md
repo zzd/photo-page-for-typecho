@@ -1,6 +1,6 @@
 # Multiverse-page for typecho
 
-typecho相册单页模板，单页模板非主题！基于HTML5UP开发设计的静态单页，觉得好看，便整合到typecho里面，实现了动态管理。
+typecho相册单页模板，单页模板非主题，可与主题共存！基于HTML5UP开发设计的静态单页，觉得好看，便整合到typecho里面，实现了动态管理。本项目仅一个php文件，静态资源jsdelivr加速，使用方便简单。
 
 在线演示(前端官方样式参考，非本项目demo)：https://html5up.net/multiverse  
 
@@ -36,7 +36,7 @@ typecho相册单页模板，单页模板非主题！基于HTML5UP开发设计的
 [点击下载最新版本](https://github.com/616620131/Multiverse-page-typecho/releases)
 
 
-将`Multiverse-page-typecho`文件夹内的所有文件上传至你所使用的主题根目录，如默认主题路径`/usr/themes/default`，然后在typecho后台创建空白单页，模板选择`照片集`。
+将`Multiverse-page-typecho`文件夹内的`photo.php`上传至你所使用的主题根目录，如默认主题路径`/usr/themes/default`，然后在typecho后台创建空白单页，模板选择`照片集`。鉴于GoogleFont服务在国内完全正常使用，暂不使用第三方镜像加速。
 
 
 ### 调用格式
