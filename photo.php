@@ -9,13 +9,13 @@
 <!-- 
 作者：ZhangDi
 https://github.com/616620131/Multiverse-page-typecho
-时间:2020-05-05 版权所有，请勿删除 
+时间:2020-05-06 版权所有，请勿删除 
 -->
 <!--jsdelivr公共CDN-->
 <?php
 function usePublicCdn()
 {
-	echo "https://cdn.jsdelivr.net/gh/616620131/Multiverse-page-typecho@1.1";
+	echo "https://cdn.jsdelivr.net/gh/616620131/Multiverse-page-typecho@1.2";
 }
 ?>
 <!--公共CDN结束-->
@@ -25,13 +25,13 @@ function storage($storage)
 {
 	if ($storage == "UPYUN") {
 		echo "!/fw/640/quality/85";
-	} elseif ($storage == "OSS")
+	} elseif ($storage == "OSS") {
 		echo "?x-oss-process=image/resize,w_640/quality,q_85";
-	elseif ($storage == "KODO")
+	} elseif ($storage == "KODO") {
 		echo "?imageView2/2/w/640/q/85";
-	elseif ($storage == "COS")
+	} elseif ($storage == "COS") {
 		echo "?imageView2/2/w/640/q/85";
-	else
+	} else
 		echo "";
 }
 ?>
@@ -57,7 +57,7 @@ function storage($storage)
 			<h1><a href="<?php $this->permalink() ?>"><strong><?php $this->title() ?></strong> Powered by ZDSR</a></h1>
 			<nav>
 				<ul>
-					<li><a href="#footer" class="icon fa-info-circle">关于</a></li>
+					<li><a href="#footer" class="icon solid fa-info-circle">关于</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -70,20 +70,29 @@ function storage($storage)
 				<div>
 					<section>
 						<h2>控制台</h2>
-						<p>本系统共有<span id="count_CN"></span>张图片。前端样式Multiverse由HTML5UP设计。</p>
+						<p>本系统共有<span id="count_CN"></span>张图片，前端样式Multiverse由HTML5UP设计。</p>
 						<h2>Console</h2>
 						<p>The system has a total of <span id="count_EN"></span> pictures, style Multiverse is designed by HTML5UP.</p>
 					</section>
 					<section>
 						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+							<?php if ($this->fields->Twitter) : ?>
+								<li><a href="<?php echo $this->fields->Twitter; ?>" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<?php endif ?>
+							<?php if ($this->fields->Facebook) : ?>
+								<li><a href="<?php echo $this->fields->Facebook; ?>" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<?php endif ?>
+							<?php if ($this->fields->Instagram) : ?>
+								<li><a href="<?php echo $this->fields->Instagram; ?>" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<?php endif ?>
+							<?php if ($this->fields->GitHub) : ?>
+								<li><a href="<?php echo $this->fields->GitHub; ?>" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<?php endif ?>
 						</ul>
 					</section>
 					<p class="copyright">
 						<!-- 虽说本页面制作容易，但也需要一点点时间编辑，请保留版权信息。 -->
-						&copy; 2020 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a> Powered by <a href="https://github.com/616620131/Multiverse-page">ZDSR</a> Based HTML5 UP</a>.
+						&copy; 2020 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a> Powered by <a href="https://github.com/616620131/Multiverse-page">ZDSR</a> Based HTML5UP</a>.
 					</p>
 				</div>
 				<div>
