@@ -1,6 +1,6 @@
 # photo page for typecho
 
-[中文 🇨🇳](README.md) / [English 🇺🇸](README-EN.md)
+[中文](README.md) / [English](README-EN.md)
 
 Typecho photo page template, a single page template that is not a theme and can exist with a theme! Based on HTML5UP development design static single page, looks nice, then integrated into the typecho, to achieve dynamic management. This project requires only one PHP file to be installed, static resources global jsDelivr CDN, easy to use.Version 2.0 introduces two photo page themes Multiverse and Lens, you can choose.
 
