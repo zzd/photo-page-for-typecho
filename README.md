@@ -1,5 +1,11 @@
 # photo page for typecho
 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/616620131/photo-page-for-typecho">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/616620131/photo-page-for-typecho/total">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/616620131/photo-page-for-typecho/latest/total">
+  <a href="https://github.com/616620131/photo-page-for-typecho/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/616620131/photo-page-for-typecho"></a>
+  <a href="https://github.com/616620131/photo-page-for-typecho/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/616620131/photo-page-for-typecho?style=social"></a>
+
 [中文](README.md) / [English](README-EN.md)
 
 typecho相册单页模板，单页模板非主题，可与主题共存！基于HTML5UP开发设计的静态单页，觉得好看，便整合到typecho里面，实现了动态管理。本项目仅需安装一个php文件，静态资源全球jsDelivr加速，使用方便简单。2.0版本引入了两个相册主题Multiverse和Lens，可自行选择。

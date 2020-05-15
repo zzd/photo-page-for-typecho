@@ -1,5 +1,11 @@
 # photo page for typecho
 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/616620131/photo-page-for-typecho">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/616620131/photo-page-for-typecho/total">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/616620131/photo-page-for-typecho/latest/total">
+  <a href="https://github.com/616620131/photo-page-for-typecho/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/616620131/photo-page-for-typecho"></a>
+  <a href="https://github.com/616620131/photo-page-for-typecho/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/616620131/photo-page-for-typecho?style=social"></a>
+
 [中文](README.md) / [English](README-EN.md)
 
 Typecho photo page template, a single page template that is not a theme and can exist with a theme! Based on HTML5UP development design static single page, looks nice, then integrated into the typecho, to achieve dynamic management. This project requires only one PHP file to be installed, static resources global jsDelivr CDN, easy to use.Version 2.0 introduces two photo page themes Multiverse and Lens, you can choose.
