@@ -8,14 +8,14 @@
 ?>
 <!-- 
 作者：ZhangDi
-https://github.com/616620131/photo-page-for-typecho
-时间:2020-05-15 版权所有，请勿删除 
+https://github.com/zzd/photo-page-for-typecho
+时间:2021-05-20 版权所有，请勿删除 
 -->
 <!-- jsdelivr公共CDN -->
 <?php
 function usePublicCdn()
 {
-	echo "https://cdn.jsdelivr.net/gh/616620131/photo-page-for-typecho@2.0";
+	echo "https://cdn.jsdelivr.net/gh/zzd/photo-page-for-typecho@2.0";
 }
 ?>
 <!-- 公共CDN结束 -->
