@@ -94,21 +94,21 @@ function storage($storage)
 		<footer id="footer">
 			<!-- 虽说本页面制作容易，但也需要一点点时间编辑，请保留版权信息。 -->
 			<ul class="copyright">
-				<li>&copy; 2020 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></li>
-				<li>Powered by <a href="https://github.com/616620131/photo-page-for-typecho">ZDSR</a> Based HTML5UP</a>.</li>
+				<li>&copy; 2021 <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></li>
+				<li>Powered by <a href="https://github.com/zzd/photo-page-for-typecho">ZDSR</a> Based HTML5UP</a>.</li>
 			</ul>
 		</footer>
 	</div>
 	<!--
 		动态读取数据 by ZhangDi
-		https://github.com/616620131/photo-page-for-typecho
+		https://github.com/zzd/photo-page-for-typecho
 	-->
 	<script type="text/javascript">
 		var datas =
-			`<?php
-				$html = $this->row['text'];
-				echo $html;
-				?>`;
+`<?php
+	$html = $this->row['text'];
+	echo $html;
+?>`;
 		datas = datas.split("\n");
 		for (var i = 0; i < datas.length; i++) {
 			datas[i] = datas[i].split(",");
