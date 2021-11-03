@@ -15,7 +15,7 @@ https://github.com/zzd/photo-page-for-typecho
 <?php
 function usePublicCdn()
 {
-	echo "https://cdn.jsdelivr.net/gh/zzd/photo-page-for-typecho@2.0";
+	echo "https://cdn.jsdelivr.net/gh/zzd/photo-page-for-typecho@master";
 }
 ?>
 <!-- 公共CDN结束 -->
