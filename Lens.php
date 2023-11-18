@@ -9,7 +9,7 @@
 <!-- 
 作者：ZhangDi
 https://github.com/zzd/photo-page-for-typecho
-时间:2022-01-01 版权所有，请勿删除
+时间:2023-11-19 版权所有，请勿删除
 -->
 <!-- jsdelivr公共CDN -->
 <?php
@@ -111,6 +111,11 @@ function storage($storage)
 ?>`;
 		datas = datas.split("\n");
 		for (var i = 0; i < datas.length; i++) {
+			if (datas[i].trim() === '' || (datas[i].match(/,/g) || []).length < 2) {
+			    datas.splice(i, 1);
+			    i--; 
+			    continue;
+			}
 			datas[i] = datas[i].split(",");
 		}
 
