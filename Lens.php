@@ -9,7 +9,7 @@
 <!-- 
 作者：ZhangDi
 https://github.com/zzd/photo-page-for-typecho
-时间:2022-01-01 版权所有，请勿删除
+时间:2024-01-15 版权所有，请勿删除
 -->
 <!-- jsdelivr公共CDN -->
 <?php
@@ -92,7 +92,6 @@ function storage($storage)
 		</section>
 		<!-- Footer -->
 		<footer id="footer">
-			<!-- 虽说本页面制作容易，但也需要一点点时间编辑，请保留版权信息。 -->
 			<ul class="copyright">
 				<li>&copy; <?php echo date("Y")?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title() ?></a></li>
 				<li>Powered by <a href="https://github.com/zzd/photo-page-for-typecho">ZDSR</a> Based HTML5UP</a>.</li>
@@ -143,5 +142,4 @@ function storage($storage)
 	<script src="<?php usePublicCdn(); ?>/Lens/js/breakpoints.min.js"></script>
 	<script src="<?php usePublicCdn(); ?>/Lens/js/main.js"></script>
 </body>
-
 </html>
